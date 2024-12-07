@@ -42,6 +42,12 @@ body {
     font-size: 2.2rem;
 }
 
+.heading.lv4 {
+    font-size  : 2rem;
+    font-weight: 600;
+
+}
+
 a {
     text-decoration: none;
 }
@@ -304,9 +310,10 @@ a {
 }
 
 .hero-active-students .list-avatar {
-    display: flex;
+    display   : flex;
     margin-top: 8px;
 }
+
 .hero-active-students .list-avatar .avatar {
     width        : 33px;
     height       : 33px;
@@ -326,6 +333,187 @@ a {
     /* text-align : center; */
     font-size     : 1rem;
     font-weight   : 500;
+}
+
+/* Features */
+.features {
+    margin-top: 130px;
+}
+
+.sub-content {
+    width: 1024px;
+}
+
+.features .title {
+    color      : #767E7E;
+    font-size  : 1.2rem;
+    font-weight: 700;
+}
+
+.features .heading-wide-mt-mb {
+    margin: 18px 0;
+    width : 577px;
+}
+
+
+.features .desc {
+    color      : #767E7E;
+    font-size  : 1.8rem;
+    font-weight: 400;
+    width      : 590px;
+}
+
+.features .list-features {
+    display        : flex;
+    justify-content: space-between;
+    margin-top     : 80px;
+}
+
+.features .item-feature .link {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    width          : 102px;
+    height         : 106px;
+    border-radius  : 20px;
+    background     : #FFC147;
+}
+
+.features .item-feature:nth-child(2) .link {
+    background: #FF947A;
+}
+
+.features .item-feature:nth-child(3) .link {
+    background: #BF83FF;
+}
+
+.features .item-feature .link img {}
+
+.features .item-feature .heading-mt-mb {
+    margin: 26px 0 16px;
+}
+
+.features .item-feature .desc {
+    color      : #9DA6A5;
+    font-size  : 1.6rem;
+    font-weight: 400;
+    line-height: 1.69;
+    width      : 168px;
+}
+
+/* Popular */
+.popular {
+    margin-top: 130px;
+}
+
+.popular .title {
+    color      : #767E7E;
+    font-size  : 1.2rem;
+    font-weight: 700;
+}
+
+.popular .heading-wide-mt-mb {
+    margin: 18px 0 19px;
+
+}
+
+.popular .row-head {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.popular .row-head .desc {
+    color      : #767E7E;
+    font-size  : 1.8rem;
+    font-weight: 400;
+    line-height: 1.78;
+    width      : 525px;
+}
+
+.popular .row-head .link {
+    color          : #1EBFC1;
+    text-decoration: underline;
+    font-size      : 1.4rem;
+    font-weight    : 700;
+}
+
+.popular .list-courses {
+    display   : flex;
+    gap       : 47px;
+    margin-top: 79px;
+
+
+}
+
+.popular .item-course {
+    position: relative;
+    width   : 359px;
+}
+
+.popular .item-course .img {
+    width           : 100%;
+    height          : 393px;
+    object-fit      : cover;
+    border-radius   : 8px;
+    /* opacity      : 0.35; */
+    background      : #D0EFED;
+}
+
+.popular .item-course .body {
+    position     : absolute;
+    inset        : auto 17px -133px 17px;
+    padding      : 18px 25px 29px;
+    width        : 325px;
+    height       : 195px;
+    border-radius: 8px;
+    background   : #fff;
+    box-shadow   : 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.popular .body a {
+    color: #0D1111;
+}
+
+.popular .body .price {
+    display    : inline-block;
+    margin     : 16px 0 6px;
+    color      : #767E7E;
+    font-size  : 1.6rem;
+    font-weight: 400;
+}
+
+.popular .body strong {
+    color      : #0D1111;
+    font-size  : 2.2rem;
+    font-weight: 700;
+}
+
+.popular .body .desc {
+    color        : #9DA6A5;
+    font-size    : 1.4rem;
+    font-weight  : 400;
+    margin-bottom: 18px;
+}
+
+.popular .body .row span {
+    position   : relative;
+    color      : #9DA6A5;
+    font-size  : 1.4rem;
+    font-weight: 400;
+    margin     : 0 10px;
+}
+
+.popular .body .row span::before {
+    content      : "";
+    position     : absolute;
+    display      : inline-block;
+    width        : 6px;
+    height       : 6px;
+    border-radius: 50%;
+    bottom       : 6px;
+    left         : -10px;
+    background   : #1EBFC1;
+
 }
 
 /* Footer  */
